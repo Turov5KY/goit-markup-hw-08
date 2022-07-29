@@ -1,0 +1,36 @@
+    $primary-white-color: #ffffff;
+    $accent-color: #2196F3;
+    $primary-text-color:  #757575;
+    $title-text-color: #212121;
+    $background-dark-color: #2F303A;
+    $background-grey-color: #F5F4FA;
+    $icon-color: #AFB1B8;
+    $background-icon-color: rgba(255, 255, 255, 0.1);
+    $transitions: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    
+
+    body{
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.03em;
+        font-size: 14px;
+        color: $primary-text-color;
+    }
+
+    h1, h2, h3 ,h4 ,h5, h6, p{
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul, li{
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style-type: none;
+    }
