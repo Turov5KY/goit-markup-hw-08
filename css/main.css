@@ -311,6 +311,17 @@ li {
 .nav-list__link.current {
   color: #2196F3;
 }
+@media screen and (max-width: 767px) {
+  .nav-list {
+    margin-bottom: 300px;
+  }
+  .nav-list__link {
+    font-size: 40px;
+  }
+  .nav-list__item:not(:last-child) {
+    margin-bottom: 33px;
+  }
+}
 @media screen and (min-width: 768px) {
   .nav-list {
     display: -webkit-box;
