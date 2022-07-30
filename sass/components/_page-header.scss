@@ -67,11 +67,14 @@
         z-index: 2;
 
         &.is-open{
-            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 796px;
         }
 
         &{
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
@@ -84,6 +87,7 @@
     @media screen and (min-width: 768px) {
         display: flex;
         align-items: center;
+        flex-grow: 1;
         
         
     }
@@ -200,7 +204,7 @@
     }
 
     @media screen and (min-width: 767px) and (max-width: 1199px) {
-        margin-left: 87px;
+        margin-left: auto;
 
         &__item:not(:last-child){
             margin-bottom: 10px;
@@ -218,7 +222,7 @@
 
     @media screen and (min-width: 1200px) {
         display: flex;
-        margin-left: 275px;
+        margin-left: auto;
 
         &__icon{
             margin-right: 10px;
@@ -233,7 +237,7 @@
 .social-phone{
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
     
 
     &__item{
