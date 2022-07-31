@@ -40,6 +40,13 @@
     border: none;
     z-index: 3;
     background-color: transparent;
+    
+    &.is-open{
+        position: fixed;
+        overflow: hidden;
+        top: 10px;
+        right: 15px;
+    }
 
     .icon-close{
         display: none;
